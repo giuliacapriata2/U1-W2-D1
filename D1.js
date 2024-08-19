@@ -53,8 +53,8 @@ mySurname = "Rossi"
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-let sottrazione = 4 - x;
-console.log(sottrazione);/* SCRIVI QUI LA TUA RISPOSTA */
+console.log(4 - x);
+
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
