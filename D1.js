@@ -28,12 +28,10 @@ let myName = "Giulia";
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-function miaFunzione() {
   let numero1 = 12;
   let numero2 = 20;
-  let somma = numero1 + numero2;
-  console.log(somma);
-}
+  console.log(numero1+numero2);
+
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
