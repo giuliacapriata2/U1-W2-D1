@@ -11,11 +11,11 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-"NUMERI : valori indicati senza apici utilizzabili per effettuare operazioni matematiche"
-"STRINGHE: parole e frasi scritte tra apici "
-"BOOLEANI: interruttori che danno solo due risposte (o true o false) a seconda che rispondano affermativamente o negativamente a quanto chiediamo"
-"NULL : attributo assegnato volontariamente dall'utente per togliere il valore alla variabile"
-"UNDEFINED: attributo assegnato in automatico (non dall'utente) per indicare che una variabile non ha un valore"
+//NUMERI : valori indicati senza apici utilizzabili per effettuare operazioni matematiche
+//STRINGHE: parole e frasi scritte tra apici 
+//BOOLEANI: interruttori che danno solo due risposte (o true o false) a seconda che rispondano affermativamente o negativamente a quanto chiediamo
+//NULL : attributo assegnato volontariamente dall'utente per togliere il valore alla variabile
+//UNDEFINED: attributo assegnato in automatico (non dall'utente) per indicare che una variabile non ha un valore
 
 
 /* ESERCIZIO 2
@@ -45,6 +45,8 @@ let x = 12;
 
 myName = "Capriata"
 console.log(myName);
+const mySurname = "Capriata"
+mySurname = "Rossi"
 
 
 /* ESERCIZIO 6
