@@ -11,7 +11,12 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+"NUMERI : valori indicati senza apici utilizzabili per effettuare operazioni matematiche"
+"STRINGHE: parole e frasi scritte tra apici "
+"BOOLEANI: interruttori che danno solo due risposte (o true o false) a seconda che rispondano affermativamente o negativamente a quanto chiediamo"
+"NULL : attributo assegnato volontariamente dall'utente per togliere il valore alla variabile"
+"UNDEFINED: attributo assegnato in automatico (non dall'utente) per indicare che una variabile non ha un valore"
+
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
@@ -43,11 +48,13 @@ let x = 12;
 myName = "Capriata"
 console.log(myName);
 
+
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let sottrazione = 4 - x;
+console.log(sottrazione);/* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -55,4 +62,7 @@ console.log(myName);
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let name1 = "john"
+let name2 = "John"
+console.log(name1 !== name2);
+console.log(name1.toLowerCase()===name2.toLowerCase());
